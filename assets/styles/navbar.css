@@ -1,7 +1,6 @@
 * {
     margin: 0;
     padding: 0;
-
 }
 .main{
     width: 100%;
@@ -10,15 +9,11 @@
     background-image: url(/assets/images/bgindex2.);
     background-size: contain;
     background-position: top;
-
-
 }
 ul {
     width: 100%;
     background: fixed;
-    background-color: rgb(94, 111, 23);
-
-    
+    background-color: rgb(94, 111, 23);  
 }
 
 /*nav bar position*/
@@ -26,9 +21,6 @@ ul {
     display: inline;
     text-align: center;
     
-}
-.nav-link{
-    padding-top: 10px;
 }
 
 .nav-link li{
@@ -50,13 +42,18 @@ a:hover{
 p {
     width: 60%;
     margin-inline: 20%;
-    padding: 10px;
+    padding: 25px;
     background-color: rgb(185, 173, 64);
-    border: 5px;
-    border-radius: 15px;
+    border: 1px solid var(--nav-bar-bg);
+    border-radius: 10px;
     color: rgb(255, 255, 255);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
     
 }
 .heather {
-
+font-size: 16px;
+font-weight: bold;
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+color: black;
 }
